@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <form class="form-class" id="form-id">
+            <div class="roll-no-div">
+                <label for="roll-no">Roll Number: </label>
+                <input type="number" class="input-roll-class i" id="input-roll-id">
+                <span class="roll-span-class" id="roll-span-id">please enter the roll nubmer and submit</span>
+            </div>
+            <div class="name-div">
+                <label for="name">Student Name: </label>
+                <input type="text" class="input-name-class i" id="input-name-id">
+                <span class="name-span-class" id="name-span-id">please enter the name and submit</span>
+            </div>
+            <div class="mark-div">
+                <label for="mark">Marks: </label>
+                <input type="number" class="input-mark-class i" id="input-mark-id">
+                <span class="mark-span-class" id="mark-span-id">please enter the mark and submit</span>
+            </div>
+            <div class="btn"><button class="btn-class" id="btn-id" >submit</button></div>
+        </form>
+
+        <table class="table-class" id="table-id">
+            <tr>
+                <th>Roll No</th>
+                <th>Student Name</th>
+                <th>Marks</th>
+            </tr>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
