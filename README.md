@@ -3,4 +3,4 @@ This project I have created a Note app in html css  js and jquery where validati
 
 This project is deployed in netlify for live view link is given below
 
-https://stunning-puppy-fb4b72.netlify.app
+https://dom-manipulation-validation.netlify.app
